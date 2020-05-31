@@ -114,6 +114,7 @@ public class Sender {
 
     public static void main(String[] args) throws IOException, TimeoutException, InterruptedException {
         //创建连接
+
         Connection connection = ConnectionUtil.getConnection();
         //创建信道
         Channel channel = connection.createChannel();
